@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#post1">Post 1</a></li>
+        <li><a href="#post2">Post 2</a></li>
+        <li><a href="#post3">Post 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Post 1 -->
+    <article id="post1">
+      <h2>Wanderlust Diaries: Tales from Around the Globe</h2>
+      <p>Date: March 1, 2024</p>
+      <div class="post-content-container">
+        <img src="./adventure.png" alt="Post 1 Image" class="post-image">
+        <p id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in justo id justo mattis eleifend. Duis vestibulum mauris vitae libero ullamcorper placerat.
+        Proin eget lectus id nisi viverra tincidunt. Nam id mauris vestibulum, convallis felis ac, malesuada nisi. Ut feugiat, nunc nec hendrerit volutpat, nisl justo malesuada urna, eget ultricies justo libero sit amet ligula.</p>
+      </div>
+      <div class="comments">
+        <h3>Comments</h3>
+        <div id="post1-comments"></div>
+        <form id="post1-comment-form">
+          <input type="text" id="post1-comment-name" placeholder="Your Name" required>
+          <textarea id="post1-comment-message" placeholder="Your Comment" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </article>
+
+    <!-- Post 2 -->
+    <article id="post2">
+      <h2>Keeping Your Dog Safe and Happy on Vacation: Essential Tips</h2>
+      <p>Date: March 5, 2024</p>
+      <div class="post-content-container">
+        <img src="./dog.png" alt="Post 2 Image" class="post-image">
+        <p id="content">Integer et ex vel nisi tristique finibus. Aliquam in tortor ut justo tempor dignissim. Morbi id tellus at libero efficitur consequat.
+        Nunc pulvinar eros ac elit aliquam, at mollis leo placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      </div>
+      <div class="comments">
+        <h3>Comments</h3>
+        <div id="post2-comments"></div>
+        <form id="post2-comment-form">
+          <input type="text" id="post2-comment-name" placeholder="Your Name" required>
+          <textarea id="post2-comment-message" placeholder="Your Comment" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </article>
+
+    <!-- Post 3 -->
+    <article id="post3">
+      <h2>Exploring the Beauty of Nature: Landscape Photography Tips</h2>
+      <p>Date: March 10, 2024</p>
+      <div class="post-content-container">
+        <img src="./travel.png" alt="Post 3 Image" class="post-image">
+        <p id="content">Vivamus id libero sed purus pellentesque ultricies. Aliquam ut sapien quis metus gravida ultricies at non justo. Ut convallis tellus a urna vehicula tincidunt.
+        Donec sit amet consequat risus. Nullam nec risus quis odio mattis commodo. Ut commodo justo ac urna sollicitudin, a cursus eros aliquam.</p>
+      </div>
+      <div class="comments">
+        <h3>Comments</h3>
+        <div id="post3-comments"></div>
+        <form id="post3-comment-form">
+          <input type="text" id="post3-comment-name" placeholder="Your Name" required>
+          <textarea id="post3-comment-message" placeholder="Your Comment" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Blog</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
